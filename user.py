@@ -11,8 +11,6 @@ class User:
         self.due = 0
         self.transferHistory =[]
         self.loan=0
-    def availableBalance(self):
-        print(self.balance)
 
     def transanctionHiatory(self):
         print(self.transferHistory)
